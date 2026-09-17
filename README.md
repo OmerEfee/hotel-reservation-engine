@@ -4,7 +4,7 @@ Spring Boot 3 ve MS SQL Server kullanılarak geliştirilmiş, eşzamanlı rezerv
 
 ---
 
-## 🎯 Mimari ve Çözülen Problem (Mülakat Notları)
+## 🎯 Mimari ve Çözülen Problem 
 
 ### 1. Overbooking & Race Condition Engelleme
 Bir otel odası için aynı milisaniyede gelen rezervasyon isteklerinde çift satış riskini önlemek amacıyla **Pessimistic Write Lock (`@Lock(LockModeType.PESSIMISTIC_WRITE)`)** uygulanmıştır.
